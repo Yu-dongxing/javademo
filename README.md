@@ -1,2 +1,2 @@
-# javademo
+# JAVA DEMO
 JAVA的测试项目
