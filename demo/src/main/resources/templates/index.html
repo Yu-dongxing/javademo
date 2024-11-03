@@ -14,6 +14,7 @@
 body {
     margin: 0;
     background-color: rgba(211, 211, 211, 0.5);
+    /*background: linear-gradient(80deg, rgba(119, 255, 210, 1) 0%, rgba(98, 151, 219, 1) 48%, rgba(30, 236, 255, 1) 100%);*/
 }
 :root {
     /*	var(--heigth);	*/
@@ -23,6 +24,11 @@ body {
     --play--width:90%;
     --margin--left:5%;
 }
+/* 取消input默认点击样式 */
+input:focus,select:focus{
+  outline: none;
+}
+
 .main {
     margin-top: 70px;
 }
@@ -41,6 +47,7 @@ body {
     margin-top: 0;
     /*-webkit-box-shadow: 0 0 23px 0 var(--he-color);*/
     /*box-shadow: 0 0 23 0 var(--he-color);*/
+    /*border-radius: 0px 0px 10px 10px ;*/
     filter: blur(10px);
 }
 .header_h1 {
